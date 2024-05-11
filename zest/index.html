@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zest</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <section class="navbar">
+    <a href="/index.html">
+      <p>🐇 Cynthia Wang</p>
+    </a>
+    <div class="nav-links">
+      <a href="/index.html">WORK</a>
+      <a href="#">PLAY</a>
+      <a href="#">ABOUT</a>
+      <a href="#">RESUME</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img src="/images/zest/cover.png">
+    </div>
+  </section>
+
+  <div class="project-details">
+    <div class="">
+      <div class="sidenav gap-sm">
+        <a href="#context"><p>1. CONTEXT</p></a>
+        <a href="#problem"><p>2. PROBLEM</p></a>
+        <a href="#process"><p>3. PROCESS</p></a>
+        <a href="#solution"><p>4. SOLUTION</p></a>
+        <a href="#learnings"><p>5. LEARNINGS</p></a>
+        <!-- <a href="#outcome"><p>6. OUTCOME</p></a> -->
+      </div>
+    </div>
+    
+    <div>
+      <!-- OVERVIEW -->
+      <section class="">
+        <div class="container gap-lg">
+          <div class="gap-sm">
+            <h2>Zest</h2>
+            <p>Gifting e-commerce platform designed to help brands automate and scale corporate sales.</p>
+          </div>
+          
+          <div class="col-container">
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">Duration</p>
+                <p>April 2024<br>3 weeks
+                </p>
+              </div>
+              <div>
+                <p class="subheading">Location</p>
+                <p>Providence, RI</p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">Team</p>
+                <p>Tiffany Huang<br>Ryan Peng<br>Sherry Zhang
+                </p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">Disciplines</p>
+                <p>Web Design<br>Mobile
+                </p>
+              </div>
+              <div class="col">
+                <p class="subheading">Tools</p>
+                <p>Figma</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+
+      <!-- CONTEXT -->
+      <section id="context">
+        <div class="container">
+          <p class="subheading">1. CONTEXT</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>What is Zest?</h2>
+              <p>Gift purchasers utilize the corporate gifting page for its specialized product range, discounts, and customization options. However, a crucial functionality missing was the ability to ship entire orders to a single address, prompting users to contact customer service.</p>
+            </div>
+            <p>The most common use cases for this new shipping method are the following:</p>
+            <div class="grid-container">
+              <div class="info-card">
+                <p>🏢 Companies ordering gifts for an in-person corporate event. 
+                </p>  
+              </div>
+              <div class="info-card">
+                <p>🎁 Consumers buying gifts in bulk as party favors. 
+                </p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROBLEM -->
+      <section id="problem">
+        <div class="container">
+          <p class="subheading">2. PROBLEM</p>
+          <div class="gap-sm">
+            <h2>An Additional Shipping Method</h2>
+            <p>Add an additional shipping method to the corporate gift shop. Currently, the corporate gift shop intakes multiple addresses from gift purchaser and ships gifts directly to gift recipients. Gift purchaser wants the option to ship their entire order to one address.</p>
+            <img src="/images/zest/original.png">
+            <p>Add an additional shipping method to the corporate gift shop. Currently, the corporate gift shop intakes multiple addresses from gift purchaser and ships gifts directly to gift recipients. Gift purchaser wants the option to ship their entire order to one address.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="process">
+        <div class="container">
+          <p class="subheading">3. PROCESS</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Sketches</h2>
+              <p>Each team member generated two end-to-end flow sketches exploring various implementations of bulk shipping. Consistent elements emerged, such as placing the new shipping method under the delivery section. However, the method of selecting bulk shipping varied, prompting further discussion.</p>
+            </div>
+            <div class="row">
+              <div>
+                <img src="/images/zest/sketches-1.png">
+              </div>
+              <div>
+                <img src="/images/zest/sketches-2.png"> 
+              </div>
+            </div>
+            <p>Initial sketches outlined various design concepts. We emphasized displaying shipping costs prominently and opted for a dropdown menu to distinguish between physical and electronic gifts, aligning with existing options. Iterations focused on minimizing clicks and ensuring clarity in the order process.</p>
+            <!-- <p>Questions...?</p> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="">
+        <div class="container">
+          <div class="gap-sm">
+            <h2>Lo-fi</h2>
+            <p>We finalized design decisions based on wireframes, including:</p>
+            <ol>
+              <li>Integrating the new delivery method under "ship to recipients’ addresses"</li>
+              <li>Opting for a dropdown menu for bulk shipping, prioritizing clarity and intuitiveness</li>
+              <li>Adding an order summary to reduce navigation and clarify total costs</li>
+              <li>Streamlining the recipients list by removing addresses for bulk shipping orders</li>
+            </ol>
+            <div class="overlay-container">
+              <div class="scrollable mac">
+                <p class="progress-msg">Scroll ↴</p>
+                <img src="/images/zest/lofi.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="">
+        <div class="container">
+          <div class="gap-md">
+            <h2>Client Feedback</h2>
+            <p>Feedback from Zest's founding designer Christine Pun prompted reconsideration of our design choices. We reverted to a single shipping method for individual addresses for clarity. Additional feedback emphasized the importance of mobile optimization and the potential for user testing to validate design decisions.</p>
+            <div class="details-container gap-lg">
+              <div class="gap-sm">
+                <div class="row sm">
+                  <img src="/images/x.svg" class="icon">
+                  <h4>Iteration 1</h4>
+                </div>
+                <img src="/images/zest/delivery-method-lofi.png">
+                <p>We initially put the bulk shipping option under the existing "ship to recipients' addresses" as a way of grouping both physical delivery methods. However, Christine's feedback informed us that shipping to one address is completely different the current shipping to recipients method.</p>
+              </div>
+              <div class="gap-sm">
+                <div class="row sm">
+                  <img src="/images/check.svg" class="icon">
+                  <h4>Iteration 2</h4>
+                </div>
+                <img src="/images/zest/delivery-method-hifi.png">
+                <p>Therefore, we decided to create a separate third shipping method since the copy was too different.</p>
+              </div>
+            </div>
+
+            <!-- <div class="details-container gap-lg">
+              <div class="gap-sm">
+                <div class="row sm">
+                  <img src="/images/x.svg" class="icon">
+                  <h4>Iteration 1</h4>
+                </div>
+                <img src="/images/zest/recipients-lofi.png">
+                <p>some text i guess</p>
+              </div>
+              
+              <div class="gap-sm">
+                <div class="row sm">
+                  <img src="/images/check.svg" class="icon">
+                  <h4>Iteration 2</h4>
+                </div>
+                <div class="row lg center">
+                  <div class="col-1-3">
+                    <img src="/images/zest/recipients-hifi.png">
+                  </div>
+                  <div class="col-2-3 gap-md">
+                    <p>text about my decisions!</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="details-container">
+              <div class="row lg center">
+                <div class="col-1-3">
+                  <video autoplay loop muted playsinline style="border-radius: 1.5rem;">
+                  <source src="/images/zest/mobile-cart-demo.mp4" type="video/mp4">
+                  </video>
+                </div>
+                
+                <div class="col-2-3 gap-md">
+                  <div class="quote-container">
+                    <p>🍪: We love this idea of always the active order summary. How do you see it working on mobile?</p>
+                  </div>
+                  <div class="gap-xs">
+                    <h4>Mobile Shopping Cart</h4>
+                    <p>Outside of our scope, but a demo of mobile</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="">
+        <div class="container">
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Identity</h2>
+              <p>Provided Figma screens from Christine, Zest's founding designer, I consolidated existing guidelines and our new additions. Since Zest uses brand-aligned colors depending on whom they work with, I used Milkbar as our brand of reference.</p>
+            </div>
+            <img src="/images/zest/style-guide.png">
+            <p>We enriched the guide with additional icons, hover-based item removal, and a custom calendar for date selection.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- final founder feedback -->
+      <section id="">
+        <div class="container">
+          <div class="gap-sm">
+            <h2>Final Founder Feedback</h2>
+            <p>We met with Christine, the founding designer, and Jeremy, one of the co-founders of Zest for a final walkthrough of our designs. Feedback on the hi-fi prototype was positive, particularly praising the sticky cart feature and enhanced user control.</p>
+            <div class="gap-sm">
+              <p>Some notable remarks included:</p>
+              <div class="row">
+                <div class="quote-container">
+                  <p>🍮: I love what y’all did with the sticky cart!</p>
+                </div>
+                <div class="quote-container">
+                  <p>🍪: You gave us a lot - more than enough for us to get this feature to a very good point!</p>
+                </div>
+              </div>
+            </div>
+            <p>However we were asked to make one revision, which was to implement a way for users to select the number of recipients in the cart.</p>
+            <img src="/images/zest/edit-recipients.png">
+            <p>We simply added a counter to the cart.</p>
+          </div>  
+        </div>
+      </section>
+
+      <!-- IDK WHAT THIS IS -->
+      <section id="solution">
+        <div class="container">
+          <p class="subheading">4. SOLUTION</p>
+          <div class="gap-md">
+            <h2>Final Designs</h2>
+            <video autoplay loop muted playsinline class="">
+              <source src="/images/zest/desktop-demo.mp4" type="video/mp4">
+            </video>
+            <img src="/images/zest/gift-selection-changes.png">
+            <div class="row lg">
+              <div class="col-1-3"><h4>01 | Sticky Shopping Cart</h4></div>
+              <div class="col-2-3"><p>Users can view their order summary and have an estimate of what their total is before moving onto the next step, Review and Checkout. This eliminates the need to go back and forth between pages to edit the gift order.</p></div>
+            </div>
+
+            <img src="/images/zest/item-removal.png">
+            <div class="row lg">
+              <div class="col-1-3"></div>
+              <div class="col-2-3"><p>Furthermore, we enhanced user interaction by incorporating features such as the ability to remove items from the cart upon hover.</p></div>
+            </div>
+
+            <img src="/images/zest/other-changes.png">
+            <div class="row lg">
+              <div class="col-1-3"><h4>02 | Bulk Shipping</h4></div>
+              <div class="col-2-3"><p>New delivery method that allows gift purchasers to ship multiple packages to one address, usually themselves.</p></div>
+            </div>
+          </div>  
+        </div>
+      </section>
+
+      <!-- learnings -->
+      <section id="learnings">
+        <div class="container">
+          <p class="subheading">5. LEARNINGS</p>
+          <div class="gap-md">
+            <h2>Takeaways</h2>
+            <p>here's some text</p>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    <hr>
+  </div>
+
+  <section class="">
+    <div class="container footer">
+      <div class="gap-sm">
+        Thanks for visiting ٩(ˊᗜˋ*)و ♡
+        <p>Designed and coded by Cynthia Wang</p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>LET'S CHAT!</p>
+          <p><a href="https://www.linkedin.com/in/cynthia-wang-81b6321b5/" target="_blank">LinkedIn 🡕</a></p>
+        </div>
+        <p><a href="mailto:cynthia_wang@brown.edu" target="_blank">Email 🡕</a></p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>NAVIGATION</p>
+          <p><a href="#">Work</a></p>
+        </div>
+        <p><a href="#">Play</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Resume</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

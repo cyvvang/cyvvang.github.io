@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Bops</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <section class="navbar">
+    <a href="/index.html">
+      <p>🐇 Cynthia Wang</p>
+    </a>
+    <div class="nav-links">
+      <a href="/index.html">WORK</a>
+      <a href="#">PLAY</a>
+      <a href="#">ABOUT</a>
+      <a href="#">RESUME</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img src="/images/k-bops/cover.png">
+    </div>
+  </section>
+
+  <div class="project-details">
+    <div class="">
+      <div class="sidenav gap-sm">
+        <a href="#context"><p>1. CONTEXT</p></a>
+        <a href="#process"><p>2. PROCESS</p></a>
+        <a href="#design"><p>3. DESIGN</p></a>
+        <a href="#deliverables"><p>4. DELIVERABLES</p></a>
+        <a href="#learnings"><p>5. LEARNINGS</p></a>
+      </div>
+    </div>
+    
+    <div>
+      <!-- OVERVIEW -->
+      <section class="">
+        <div class="container gap-lg">
+          <div class="gap-sm">
+            <h2>K-Bops</h2>
+            <p>A music listening and filtering application with the latest K-Pop hits from 2022-2024.</p>
+          </div>
+          
+          <div class="col-container">
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">Duration</p>
+                <p>March 2024 - April 2024<br>3 weeks
+                </p>
+              </div>
+              <div>
+                <p class="subheading">Location</p>
+                <p>Providence, RI</p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">Disciplines</p>
+                <p>Web Design
+                </p>
+                <p>Development
+                </p>
+              </div>
+              <div class="col">
+                <p class="subheading">Tools</p>
+                <p></p>
+                <p>React</p>
+                <p>Figma</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+
+      <!-- CONTEXT -->
+      <section id="context">
+        <div class="container">
+          <p class="subheading">1. CONTEXT</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Why this Project?</h2>
+              <p>The goal of K-Bops was to practice conducting competitive analysis and enhance frontend development skills by creating a React application with filtering functionalities. This project served as my first experience with React, presenting various technical challenges due to my limited experience with JavaScript.
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process">
+        <div class="container">
+          <p class="subheading">2. PROCESS</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Competitive Analysis</h2>
+              <p>For the competitive analysis, I examined popular websites across social media, e-commerce, and music listening domains, focusing on functionality, visual design, and accessibility.</p>
+            </div>
+            <img src="/images/k-bops/competitive-analysis.png">
+            <p>From a user's standpoint, I found the following elements most helpful during my process of favoriting an item and hoped to incorporate them in my app:</p>
+            <ol>
+              <li>Direct access to Favorites through the navigation</li>
+              <li>Confirmation message when user favorites an item</li>
+              <li>Diverse filtering options</li>
+              <li>Discoverable Reset filters</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="design">
+        <div class="container">
+          <p class="subheading">3. DESIGN</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Design & Code Architecture</h2>
+              <p>In developing the K-Bops interface, I drew inspiration from Spotify's visual design, featuring a left sidebar and main content area. Functionality-wise, the application allowed users to filter songs by artist, release year, and song type, with additional features for favoriting and unfavoriting songs.</p>
+            </div>
+            <img src="/images/k-bops/components.png">
+            <div class="row lg">
+              <div class="col-1-3"><h4>Organization of Components</h4></div>
+              <div class="col-2-3"><p>Components such as Card, Buttons, and Icons were utilized to manage display and interaction elements efficiently.</p></div>
+            </div>
+            <img src="/images/k-bops/architecture.png">
+            <div class="row lg">
+              <div class="col-1-3"><h4>Flow of Data</h4></div>
+              <div class="col-2-3"><p>Data flow between components ensured seamless integration and functionality, facilitating the effective display of filtered songs.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="deliverables">
+        <div class="container">
+          <p class="subheading">4. DELIVERABLES</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Presenting K-Bops</h2>
+              <p>This application incorporated three types of filters and a favoriting aggregator, allowing users to filter songs by year, song type, and artist. The intuitive interface provided direct access to favorites, confirmation messages for favorited items, and discoverable reset filters.
+            </p>
+            </div>
+            <video autoplay loop muted playsinline class="" style="border-radius: 0.5rem;">
+              <source src="/images/k-bops/demo.mp4" type="video/mp4">
+            </video>
+            <a href="https://react-assignment-three-black.vercel.app/" target="_blank"><div class="button"><p>See final application here 🡕</p></div></a>
+        </div>
+      </section>
+
+      <section id="learnings">
+        <div class="container">
+          <p class="subheading">5. LEARNINGS</p>
+          <div class="gap-md">
+            <h2>Reflection</h2>
+            <ol>
+              <li>This was a very challenging project given my background in React. I learned a lot about useStates, components, props, and how to abstract and better organize my code.</li>
+              <li>I had initially added useStates for my pill buttons so that the user would at least know which filters they applied, however these visual indicators were removed as soon as I added functionality since I was unable to figure out how to combine both. In my next projects, I hope to not compromise usability for functionality.</li>
+              <li>If I had more time and a deeper understanding of React and JavaScript principles, I would add a clear filters button that simply clears all the filters applied on the page. For example, if an artist Icon is clicked and a year and/or song type filter was applied, the clear filters button should remove the year and song type filters and only display all the songs by that artist.</li>
+            </ol>
+            <p>Overall, I'm satisfied with the work I was able to accomplish within the given timeframe!</p>
+          </div>  
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <div class="container">
+    <hr>
+  </div>
+  
+  <section class="">
+    <div class="container footer">
+      <div class="gap-sm">
+        Thanks for visiting ٩(ˊᗜˋ*)و ♡
+        <p>Designed and coded by Cynthia Wang</p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>LET'S CHAT!</p>
+          <p><a href="https://www.linkedin.com/in/cynthia-wang-81b6321b5/" target="_blank">LinkedIn 🡕</a></p>
+        </div>
+        <p><a href="mailto:cynthia_wang@brown.edu" target="_blank">Email 🡕</a></p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>NAVIGATION</p>
+          <p><a href="#">Work</a></p>
+        </div>
+        <p><a href="#">Play</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Resume</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
