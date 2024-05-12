@@ -47,7 +47,12 @@ h1 {
 h2 {
   font-size: 2rem;
   font-family: "DM Mono", monospace;
+  font-weight: 500;
   line-height: 150%;
+}
+
+h2.project-title {
+  font-size: 3rem;
 }
 
 p {
